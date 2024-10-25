@@ -55,7 +55,7 @@ const ToDoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
                      <option value="private">Private</option>
                   </select>
 
-                  <button type='submit' className='flex flex-wrap rounded-md bg-blue-500 w-16 text-white justify-center p-1 shadow-sm transition-transform trasnform hover:scale-110 duration-20'>Add</button>
+                  <button type='submit' className='flex flex-wrap rounded-md text-sm bg-blue-500 w-14 text-white justify-center p-1 shadow-sm transition-transform trasnform hover:scale-110 duration-20'>Add</button>
                </div>
             </form>
          </div>

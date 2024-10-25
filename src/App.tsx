@@ -60,7 +60,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <div className='flex justify-center mt-8 flex-col px-12 lg:mx-40 xl:mx-80 mb-10'>
+      <div className='flex justify-center mt-6 xl:mt-16 flex-col px-12 lg:mx-40 xl:mx-80 mb-10'>
         <h1 className='text-3xl'>To do list</h1>
         <Search search={search} setSearch={setSearch} />
         <Filter filter={filter} setFilter={setFilter} filterCategory={filterCategory} setFilterCategory={setFilterCategory} setSort={setSort} />
