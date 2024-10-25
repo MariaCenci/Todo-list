@@ -8,3 +8,17 @@ body{
   margin:0;
   box-sizing: border-box;
 }
+
+input:focus, select:focus{
+  outline: none;
+outline: blue;
+}
+
+input, select{
+  outline: none; /* Remove o outline padrão */
+}
+
+input:focus, select:focus {
+  outline: 1px solid rgba(40, 82, 253, 0.997); 
+  outline-style: solid; 
+}

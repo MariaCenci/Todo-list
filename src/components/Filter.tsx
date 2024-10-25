@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 type FilterProps = {
    filter: string,
    filterCategory: string,
@@ -31,8 +30,8 @@ const Filter: React.FC<FilterProps> = ({ filter, setFilter, filterCategory, setF
             </div>
          </div>
          <div className='flex gap-4 mb-4'>
-            <button onClick={() => setSort("asc")} className=' rounded-sm p-0.5 w-12 text-sm text-white text-center bg-pink-500'>Asc</button>
-            <button onClick={() => setSort("desc")} className=' rounded-sm p-0.5 w-12 text-sm text-white text-center bg-purple-500'>Desc</button>
+            <button onClick={() => setSort("asc")} className=' rounded-sm p-0.5 w-12 text-sm text-white text-center bg-pink-500 transition-transform trasnform hover:scale-110 duration-20'>Asc</button>
+            <button onClick={() => setSort("desc")} className=' rounded-sm p-0.5 w-12 text-sm text-white text-center bg-purple-500 transition-transform trasnform hover:scale-110 duration-20'>Desc</button>
          </div>
       </div>
    )

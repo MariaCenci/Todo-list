@@ -11,4 +11,4 @@ In this APP you can:
 - Filter by completed/incomplete
 - Filter by ascending/descending order
 
-It was a very good way to better understand CRUD and react changing states.
+It was a very good way to better understand CRUD and react state changes.

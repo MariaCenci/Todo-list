@@ -12,7 +12,7 @@ const App: React.FC = () => {
     {
       id: 1,
       text: "Clean house",
-      category: "Private",
+      category: "private",
       isCompleted: false
     }
   ])
